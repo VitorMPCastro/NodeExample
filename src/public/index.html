@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<h1>CRUD Operations with JSON Data</h1>
+<div id="app">
+    <form id="personForm">
+        <input type="hidden" id="personId" />
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="date" id="dateOfBirth" required />
+        <button type="submit">Save</button>
+    </form>
+    <ul id="peopleList"></ul>
+</div>
+<script src="app.js"></script>
+</body>
+</html>
